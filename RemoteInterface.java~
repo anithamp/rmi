@@ -8,4 +8,5 @@ public String append(String str,String str2)throws RemoteException;
  public String ucase(String str)throws RemoteException;
 
  public String lcase(String str)throws RemoteException;
+public void clos()throws RemoteException;
 }

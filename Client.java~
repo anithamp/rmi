@@ -60,7 +60,7 @@ switch(ch)
 		 str=br.readLine();
 		ustr=s.ucase(str);
 		System.out.println("upperr to lower:"+ustr);break;
-	case 6:System.exit(0);
+	case 6: s.close();
 	default:
 		System.out.println("wrong choice");
 

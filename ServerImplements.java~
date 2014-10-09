@@ -75,5 +75,9 @@ public String append(String str,String str2)throws RemoteException
      ustr=str.toUpperCase();
 	return(ustr);
    }
+public void clos()throws RemoteException
+{
+System.exit(0);
+}
 
 }
